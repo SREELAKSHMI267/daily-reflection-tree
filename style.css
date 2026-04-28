@@ -1,0 +1,82 @@
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f1f5f9;
+}
+
+/* Main container */
+.container {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Heading */
+.container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Labels */
+label {
+  display: block;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #cbd5f5;
+}
+
+/* Inputs & select */
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #0f172a;
+  color: #f1f5f9;
+}
+
+/* Button */
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #0f172a;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #0ea5e9;
+  transform: scale(1.03);
+}
+
+/* Output */
+#output {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #22c55e;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daily Reflection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Daily Reflection System</h2>
+
+  <label>Task Completed?</label>
+  <select id="completed">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select>
+
+  <br><br>
+
+  <label>Mood (1-5)</label>
+  <input type="number" id="mood" min="1" max="5">
+
+  <br><br>
+
+  <label>Distraction</label>
+  <input type="text" id="distraction">
+
+  <br><br>
+
+  <button onclick="runTree()">Submit</button>
+
+  <h3 id="output"></h3>
+
+  <script src="script.js"></script>
+</body>
+</html>
